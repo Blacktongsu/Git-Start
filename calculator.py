@@ -1,4 +1,7 @@
 # 기본 계산기
+import re
+
+
 def add(a,b):
     return a+b
 
@@ -10,6 +13,3 @@ def multiply(a,b):
 
 def divide_new(a,b):
     return a/b
-
-def square(a):
-    return a*a
